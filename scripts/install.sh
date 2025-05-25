@@ -69,7 +69,7 @@ pip3 install huggingface_hub runpod
 
 echo "Downloading Deliberate v2 model"
 cd /workspace/stable-diffusion-webui/models/Stable-diffusion
-aria2c -o deliberate_v2.safetensors https://huggingface.co/ashleykleynhans/a1111-models/resolve/main/Stable-diffusion/deliberate_v2.safetensors
+aria2c -o Gemini_ILMixV5.safetensors https://huggingface.co/CuteBlueEyed/GeminiX/resolve/main/Gemini_ILMixV5.safetensors
 
 echo "Downloading SDXL base model"
 aria2c -o sd_xl_base_1.0.safetensors https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors
